@@ -119,8 +119,8 @@ public bool NearlySoldOut { get; set; }
 - Implement and test optional product filter.
 
 - Write additional tests for the following areas:
-    - Repositories - to test data is serialize / de-serialized properly  
-    - Controllers - to test exceptions and http handling works solidly
+    - Repositories - to test data is serialize / de-serialized properly.
+    - Controllers - to test exceptions and http handling is robust.
     - Integration Tests - Test solution end to end in new project for additional code coverage / affirmation.
     - Errors - an extension of the above points, ensure api error responses are handled in a suitable fashion.
     - A little bit front-end layout clean up to be picky.
