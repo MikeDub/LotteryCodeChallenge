@@ -1,4 +1,4 @@
-Lottery Code Challenge - 
+Lottery Code Challenge 
 =========
 Developed by Michael Whitman
 
@@ -37,8 +37,7 @@ public class DrawRequest
 ```
 
 + **Controller Endpoints:**
-This is the API for the front-end app to communicate with.
-It contains 2 Endpoints **Current** and **Open**:
+This is the API for the front-end app to communicate with.  It contains 2 Endpoints `Current` and `Open`:
 ```
 /// <summary>
 /// Gets a list of the current lotto draws
