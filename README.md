@@ -109,8 +109,18 @@ public bool NearlySoldOut { get; set; }
 **Special Notes**: 
 - *In order to communicate with the backend on your local computer, the port number must be set correctly in the http service, this is currently set to 44318, if Visual studio changes this, update accordingly*.
 
-- The draws tables support pagination and sorting, but it has not been properly implemented yet.
-
-- Additionally, the optional product filter has not been implemented yet.
-
 - **You will most likely need to restore the angular / npm packages before getting the solution to run, this will not be committed to the repository.**
+
+
+**TODO: Functionality to be developed next:**
+
+- Implement the pagination and sorting for the lotto draw tables.
+
+- Implement and test optional product filter.
+
+- Write additional tests for the following areas:
+    - Repositories - to test data is serialize / de-serialized properly  
+    - Controllers - to test exceptions and http handling works solidly
+    - Integration Tests - Test solution end to end in new project for additional code coverage / affirmation.
+    - Errors - an extension of the above points, ensure api error responses are handled in a suitable fashion.
+    - A little bit front-end layout clean up to be picky.
