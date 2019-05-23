@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.UnitTests\\LotteryCodeChallenge.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.UnitTests\\LotteryCodeChallenge.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.UnitTests\\LotteryCodeChallenge.UnitTests.csproj",
+        "projectName": "LotteryCodeChallenge.UnitTests",
+        "projectPath": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.UnitTests\\LotteryCodeChallenge.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.csproj": {
+                "projectPath": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.csproj",
+        "projectName": "LotteryCodeChallenge",
+        "projectPath": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge.csproj",
+        "packagesPath": "C:\\Users\\Mike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mike\\Code\\ASP.NET WebAPI\\LotteryCodeChallenge\\LotteryCodeChallenge\\LotteryCodeChallenge\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
