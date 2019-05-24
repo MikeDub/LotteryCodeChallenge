@@ -123,4 +123,6 @@ public bool NearlySoldOut { get; set; }
     - Controllers - to test exceptions and http handling is robust.
     - Integration Tests - Test solution end to end in new project for additional code coverage / affirmation.
     - Errors - an extension of the above points, ensure api error responses are handled in a suitable fashion.
+    - Write front-end field validation
+    - Front-end unit tests
     - A little bit front-end layout clean up to be picky.
