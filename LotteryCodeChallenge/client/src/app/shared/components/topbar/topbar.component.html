@@ -1,0 +1,16 @@
+<mat-toolbar>
+  Lucky Lotteries - 'Challenge' your luck!
+  <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon>attach_money</mat-icon>
+      <span>Lottery Draws</span>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="Navigate('draws/current')">Current Draws</button>
+    <button mat-menu-item (click)="Navigate('draws/open')">Open Draws</button>
+  </mat-menu>
+  <button mat-menu-item style="width: 100px;" (click)="Navigate('faq')">
+      <mat-icon>question_answer</mat-icon>
+      <span>FAQ</span>
+  </button>
+  
+</mat-toolbar>

@@ -1,0 +1,37 @@
+<h2 class="dashboard-text title">Welcome to your Dashboard</h2>
+<h5 class="dashboard-text description">Select an option from the Dashboard or menu to continue</h5>
+<mat-divider></mat-divider>
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile (click)="Navigate('/draws/current')" >
+      <div style="width: 70%; height:70%;" [@animate]="{value:'*',params:{scale:'.9',delay:'300ms'}}">
+          <mat-card id="currentDrawsCard">
+            <mat-card-title >
+              <small class="text-muted">Current Lottery Draws</small>
+              <span fxFlex></span>
+            </mat-card-title>
+            <mat-card-content>
+                <h3 class="m-0 font-normal">See what is currently being drawn</h3>
+              <mat-chip-list>
+                  <mat-chip class="icon-chip" color="accent" selected="true"><mat-icon>trending_up</mat-icon> Jackpot</mat-chip>
+              </mat-chip-list>
+            </mat-card-content>
+          </mat-card>
+        </div>
+  </mat-grid-tile>
+  <mat-grid-tile (click)="Navigate('/draws/open')" >
+      <div style="width: 70%; height:70%;" [@animate]="{value:'*',params:{delay:'300ms',scale:'.9'}}">
+          <mat-card id="openDrawsCard">
+            <mat-card-title>
+              <small class="text-muted">All Open Lottery Draws</small>
+              <span fxFlex></span>
+            </mat-card-title>
+            <mat-card-content>
+              <h3 class="m-0 font-normal">Pick from a wide range of different games!</h3>
+              <mat-chip-list>
+                  <mat-chip color="primary" selected><mat-icon>trending_up</mat-icon> Growing Division 1</mat-chip>
+              </mat-chip-list>
+            </mat-card-content>
+          </mat-card>
+        </div>
+  </mat-grid-tile>
+</mat-grid-list>

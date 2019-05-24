@@ -1,0 +1,23 @@
+<div class="app-admin-wrap">
+
+    <app-topbar>
+    </app-topbar>
+    <!-- Main Container -->
+    <mat-sidenav-container class="app-admin-container">
+      <!-- App content -->
+      <div class="main-content-wrap"  >
+        <div class="rightside-content-hold" >
+          <!-- View Loader -->
+          <div class="view-loader" *ngIf="isModuleLoading">
+            <div class="spinner">
+              <div class="double-bounce1 mat-bg-accent"></div>
+              <div class="double-bounce2 mat-bg-primary"></div>
+            </div>
+          </div>
+          <!-- View outlet -->
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+      
+    </mat-sidenav-container>
+  </div>

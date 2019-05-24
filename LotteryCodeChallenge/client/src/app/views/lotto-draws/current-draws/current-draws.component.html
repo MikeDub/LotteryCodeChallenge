@@ -1,0 +1,7 @@
+<mat-toolbar>
+  <button mat-menu-item style="width: 80px;" (click)="Navigate('/dashboard')" >
+    <mat-icon >chevron_left</mat-icon> 
+  </button>
+  <h2 class="title-text">Current Lottery Draws</h2>
+</mat-toolbar>
+<app-table [TableSource]="'current'"></app-table>

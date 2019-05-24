@@ -1,0 +1,19 @@
+.dashboard-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    .title {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 24px;
+    }
+}
+
+#openDrawsCard:hover {
+    background-color: #CCC;
+}
+#currentDrawsCard:hover {
+    background-color: #CCC;
+}
