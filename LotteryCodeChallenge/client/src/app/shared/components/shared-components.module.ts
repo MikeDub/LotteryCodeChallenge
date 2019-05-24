@@ -11,7 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [TopbarComponent, TableComponent, PageNotFoundComponent],
+  declarations: [TopbarComponent, TableComponent],
   imports: [
     CommonModule,
     MaterialComponentsModule,
@@ -23,8 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   exports: [
     TopbarComponent,
-    TableComponent,
-    PageNotFoundComponent
+    TableComponent
   ],
   providers: [HttpService]
 })
